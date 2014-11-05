@@ -1,4 +1,4 @@
-# Reaso of fork
+# Reason of fork
 I forked this because this project is for defining roles and permissions and mapping of them to users. but maybe you have some other attribute that needs to be set in these tables. you might have several workspaces for user, and this user have specific roles and permissiond per each workspace that he is using at the moment. this workspace concept is necessery in SaaS development. For example your application is some kind of managing. A user might have several accounts. One manager account and one accountant account and one employee account. all these accounts can be set to one user, by adding managing_company_id to "user role mapping table" and "role permission mapping table".
 
 
